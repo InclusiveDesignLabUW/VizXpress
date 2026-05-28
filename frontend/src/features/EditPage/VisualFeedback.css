@@ -1,0 +1,93 @@
+.feedback-container {
+    text-align: left;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.feedback-entry {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.feedback-entry h2 {
+    font-size: 20px;
+}
+
+.feedback-entry h3 {
+    font-size: 18px;
+    color: 	#484848;
+}
+
+.feedback-entry h4 {
+    font-size: 16px;
+}
+
+.feedback-entry img {
+    width: 40%;
+    max-width: 200px;
+    height: auto;
+}
+
+.text-entry {
+    width: 100%;
+    padding: 8px 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    padding: 8px 20px;  
+    background-color: white;  
+    color: black; 
+    /* border: none;   */
+    cursor: pointer;  
+    /* margin-top: 10px;   */
+}
+
+
+/* Adjust font sizes for smaller screens */
+@media (max-width: 600px) {
+    .feedback-entry {
+        font-size: 14px;
+    }
+    .feedback-entry h2 {
+        font-size: 18px;
+    }
+    .feedback-entry h3 {
+        font-size: 16px;
+    }
+    .feedback-entry h4 {
+        font-size: 14px;
+    }
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;  /* Stack items vertically */
+    align-items: flex-start;      /* Center horizontally */
+    gap: 10px;                /* Adds space between image and button */
+    max-width: 100%;
+}
+
+.uploaded-image {
+    width: 100%; /* Makes sure the image resizes */
+    max-width: 300px; /* Constrains image size so it's not too big */
+    height: auto; /* Keeps aspect ratio */
+}
+
+.download-button {
+    width: 100%; /* Makes button the same width as the image */
+    max-width: 200px; /* Matches max image width */
+}

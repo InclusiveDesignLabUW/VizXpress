@@ -1,0 +1,49 @@
+.editor-container {
+    text-align: left;
+    font-size: 16px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.editor-container h2 {
+    font-size: 20px;
+}
+
+.editor-container h3 {
+    font-size: 18px;
+    color: 	#484848;
+}
+
+.editor-button {
+    padding: 8px 20px;  
+    background-color: white;  
+    color: black; 
+    /* border: none;   */
+    cursor: pointer;  
+    /* margin-top: 10px;   */
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+
+/* Adjust font sizes for smaller screens */
+@media (max-width: 600px) {
+    .editor-container {
+        font-size: 14px;
+    }
+    .editor-container h2 {
+        font-size: 18px;
+    }
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+}
